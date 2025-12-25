@@ -1,0 +1,92 @@
+\hypertarget{class_time_control_v_f_x}{}\doxysection{Time\+Control\+VFX Class Reference}
+\label{class_time_control_v_f_x}\index{TimeControlVFX@{TimeControlVFX}}
+Inheritance diagram for Time\+Control\+VFX\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_time_control_v_f_x}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_v_f_x_ac4fd86a38a8a81a1fdf175b2c6b6275d}\label{class_time_control_v_f_x_ac4fd86a38a8a81a1fdf175b2c6b6275d}} 
+void {\bfseries VFXIs\+Playing} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_v_f_x_a2fdfeda440e02d4a9f968846aa07ffcc}\label{class_time_control_v_f_x_a2fdfeda440e02d4a9f968846aa07ffcc}} 
+Visual\+Effect {\bfseries reverse}
+\item 
+\mbox{\Hypertarget{class_time_control_v_f_x_af9ab8d04204acc29da78c466f6a53f52}\label{class_time_control_v_f_x_af9ab8d04204acc29da78c466f6a53f52}} 
+List$<$ bool $>$ {\bfseries pit\+List}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_time_control_v_f_x_ae45e1d306f3c7e80bb46392df5d5d17f}{Rewinding}} ()
+\item 
+override void \mbox{\hyperlink{class_time_control_v_f_x_a94148f8ac7cc8d18d58d264cbbb7febd}{Not\+Rewinding}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a7a7a0490f9a6ec1e770e022730e4ac42}\label{class_time_control_parent_a7a7a0490f9a6ec1e770e022730e4ac42}} 
+void {\bfseries Start} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a4c11543547d7a686861f2c734b699454}\label{class_time_control_parent_a4c11543547d7a686861f2c734b699454}} 
+virtual void {\bfseries Fixed\+Update} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_afc48bb694e2ce844b22c7d853fd651e1}\label{class_time_control_parent_afc48bb694e2ce844b22c7d853fd651e1}} 
+virtual void {\bfseries Start\+Init} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a052821f404c96846e325b2d5a6b17d56}\label{class_time_control_parent_a052821f404c96846e325b2d5a6b17d56}} 
+abstract void {\bfseries Rewinding} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a13c7bb2ae605ef5c413074ca8e9efc9a}\label{class_time_control_parent_a13c7bb2ae605ef5c413074ca8e9efc9a}} 
+abstract void {\bfseries Not\+Rewinding} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a40300d0ccc58d9466c637c17e48fc94e}\label{class_time_control_parent_a40300d0ccc58d9466c637c17e48fc94e}} 
+Game\+Object {\bfseries time}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a736658ff4c137eb47fc6b5c270ff6e26}\label{class_time_control_parent_a736658ff4c137eb47fc6b5c270ff6e26}} 
+float {\bfseries max\+Recording\+Time}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a595718e6396b5a3c2c3309de6a5f7add}\label{class_time_control_parent_a595718e6396b5a3c2c3309de6a5f7add}} 
+bool {\bfseries first\+Frame\+After} = false
+\item 
+\mbox{\Hypertarget{class_time_control_parent_aa28855ce729ce3b3e8596d195271f523}\label{class_time_control_parent_aa28855ce729ce3b3e8596d195271f523}} 
+\mbox{\hyperlink{class_timer}{Timer}} {\bfseries timer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_time_control_v_f_x_a94148f8ac7cc8d18d58d264cbbb7febd}\label{class_time_control_v_f_x_a94148f8ac7cc8d18d58d264cbbb7febd}} 
+\index{TimeControlVFX@{TimeControlVFX}!NotRewinding@{NotRewinding}}
+\index{NotRewinding@{NotRewinding}!TimeControlVFX@{TimeControlVFX}}
+\doxysubsubsection{\texorpdfstring{NotRewinding()}{NotRewinding()}}
+{\footnotesize\ttfamily override void Time\+Control\+VFX.\+Not\+Rewinding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+\mbox{\Hypertarget{class_time_control_v_f_x_ae45e1d306f3c7e80bb46392df5d5d17f}\label{class_time_control_v_f_x_ae45e1d306f3c7e80bb46392df5d5d17f}} 
+\index{TimeControlVFX@{TimeControlVFX}!Rewinding@{Rewinding}}
+\index{Rewinding@{Rewinding}!TimeControlVFX@{TimeControlVFX}}
+\doxysubsubsection{\texorpdfstring{Rewinding()}{Rewinding()}}
+{\footnotesize\ttfamily override void Time\+Control\+VFX.\+Rewinding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Effect/Time\+Control\+VFX.\+cs\end{DoxyCompactItemize}

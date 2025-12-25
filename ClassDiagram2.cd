@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DestroyedParticles" Collapsed="true">
+    <Position X="15.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Effect\DestroyedParticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticleBehaviour" Collapsed="true">
+    <Position X="19" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAgAAQAAAAAAAgAAAAAICACAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Effect\ParticleBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticlesManager">
+    <Position X="2.75" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAiAAAAAAAAgACAAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Effect\ParticlesManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlNotDestroyableParticle">
+    <Position X="18.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAQAAACAAAAQAAABQACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Effect\TimeControlNotDestroyableParticle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlVFX">
+    <Position X="23" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABAAAAAAAAAACAAAAAAAAAIAQAAARAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Effect\TimeControlVFX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BulletManager" Collapsed="true">
+    <Position X="20.75" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQAiAAAAAAAAAAAAAAAAAAAAAUABAAQAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\BulletManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DestroyedBullet">
+    <Position X="0.5" Y="13.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAIAgAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\DestroyedBullet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IK" Collapsed="true">
+    <Position X="24.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAASAAAQBEAAAYAAAgQAJAIIAAAAAAAAAAQAAAAEAEA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\IK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechBulletBehaviour" Collapsed="true">
+    <Position X="19" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAYAkAAgAAAAAgIAIgAEFERASAEAAIAAQAAAEE=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\MechBulletBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechCombatState" Collapsed="true">
+    <Position X="20.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACQjFAAQAgAAAAAAAAAAAABEAIBAAAABAAAAg=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\MechCombatState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechIKFootSolver" Collapsed="true">
+    <Position X="22.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASEAQCAACEAAgAAABAIBIQCAQCQAQEAAAABBEEgAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\MechIKFootSolver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechNavigation" Collapsed="true">
+    <Position X="24.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAwAAAAQiAAAQAIBAAQAAAAgAAAAAAAAAAABAAAQAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\MechNavigation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechRoutine" Collapsed="true">
+    <Position X="26" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAiAAAAAAAAACAABAAAAAAAAAAAAAAAAQAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\MechRoutine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechShoot" Collapsed="true">
+    <Position X="13.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEASABCAQySAAAIADAIAAAAAQAgAAAIAAJAiQgAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\MechShoot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MechView" Collapsed="true">
+    <Position X="15.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAYAQIAAiAgARABAAAQIQEAAAIQAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\MechView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlMech">
+    <Position X="2.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAIAABEEAQAAAAICAAEAAAgAAAAIQIQQRgACggo=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\TimeControlMech.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlMechIK">
+    <Position X="7.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAABEAAgAAABAIBIAAAACAAAAAQAAABAEiAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\TimeControlMechIK.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameData" Collapsed="true">
+    <Position X="19" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAEACAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\File Related\GameData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GameManaging" Collapsed="true">
+    <Position X="20.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACBAgAAABCEAAAAAAAQAEAACDAAAIQAQAEAAAAGA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\File Related\GameManaging.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RebindKey" Collapsed="true">
+    <Position X="24.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACQAAAAAAAAAAAAAABAAAAAIBEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\File Related\RebindKey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SaveSystem" Collapsed="true">
+    <Position X="26" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\File Related\SaveSystem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraFollow" Collapsed="true">
+    <Position X="22.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgiAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\CameraFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClonedPlayer" Collapsed="true">
+    <Position X="24.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYCBAAQAigAAAIAAgAAAAAJAQAAAACgQAAAACAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\ClonedPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PickUpCube" Collapsed="true">
+    <Position X="22.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgBBAAQAiABAAIAAIAAABQAAAAAAAAIAIAAIAEAAIA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PickUpCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PistolBehaviour" Collapsed="true">
+    <Position X="24.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACBIBgMSgyABFAKAJYAAgCQIBEoYAEIQDZBMAADAJgg=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PistolBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PistolPickup" Collapsed="true">
+    <Position X="26" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAjAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAE=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PistolPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PistolTrigger" Collapsed="true">
+    <Position X="13.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAgAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PistolTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAnimation" Collapsed="true">
+    <Position X="17.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BCCgAAAQEzAIAAZEAAAAgRQQiIBgCAAABICgAAAACIA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerAudio" Collapsed="true">
+    <Position X="19" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACAIAQAyAiAIAAIEACAAAAABAAQghAAAIABAgAQAQAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerAudio.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerBulletBehaviour" Collapsed="true">
+    <Position X="20.75" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAQEkAAAAAAAAAIAMgAEFEQASAHAAAACQAAAEE=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerBulletBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerClimb" Collapsed="true">
+    <Position X="22.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADIAAQAiASABIEBAAAAAQAAIIAAAABAIAAAiAEAAg=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerClimb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerCombatState" Collapsed="true">
+    <Position X="24.25" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BASAAAEIAnAAAAgBAAEAAEAAAEACAAAYAgAAAABAAAo=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerCombatState.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerFinisher" Collapsed="true">
+    <Position X="26" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABCAAQCjELAIIEAQAAAEREgAAAFAAAAIBASACAAQo=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerFinisher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerInput" Collapsed="true">
+    <Position X="13.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAIAAAAAAAAAAAAAAAAEAAAAAAAEA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerInput.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerLook" Collapsed="true">
+    <Position X="15.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAQDdAAEgCAIAgACAEAAAkQAAAAgAAAAAgAEAAAgAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerLook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerMovement" Collapsed="true">
+    <Position X="17.25" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAABBWgTAqQAAAIFAAQwAAzCAQAAEUSAAIIAEhUIAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerMovement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerWallRun" Collapsed="true">
+    <Position X="20.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ApBHBAAQIiAYABIkgAAgAAQACAAAAEIIEIAEAgAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PlayerWallRun.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Utils" Collapsed="true">
+    <Position X="20.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\RewindUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SpeedLines" Collapsed="true">
+    <Position X="15.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAUAAAAAAAAAAAABAAgABAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\SpeedLines.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlPistolPickup">
+    <Position X="5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAQAAQAAACAAE=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\TimeControlPistolPickup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlPlayer">
+    <Position X="9.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACABDEgQAxAAAAoNAAABgAAFAAAAgAAQQgABVAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\TimeControlPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ActivationArea" Collapsed="true">
+    <Position X="15.5" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAAAAAAAgAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\ActivationArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AudioManager" Collapsed="true">
+    <Position X="19" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABEAAAEoAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\AudioManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DestroyedParticle">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\DestroyedParticles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ElevatorController" Collapsed="true">
+    <Position X="17.25" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>JCQAAAAAAiAASDQQAAAAAQAgQBAAAAEJgAABAAwgAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\ElevatorController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GateScript" Collapsed="true">
+    <Position X="22.5" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgCAiAAAJAAAAAAAAQAAABAAAAARAAAAAEAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\GateScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MixSFX" Collapsed="true">
+    <Position X="17.25" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACACAAAAAgAAAAAAAAAAAAAUBAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\MixSFX.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlatformTrigger" Collapsed="true">
+    <Position X="15.5" Y="15" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAABAAAAgAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\PlatformTrigger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PostProcessing" Collapsed="true">
+    <Position X="22.5" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQCGRAQECAIAAIEAAoAAQAAAAggAABAAAAAgCACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\PostProcessing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sound" Collapsed="true">
+    <Position X="13.75" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAACAIAAQAIAAAAAAAEAEAgAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\Sound.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlCube">
+    <Position X="14" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAQAAAAAAAAQAAAAAAAAAAAAAgAIABCAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlCube.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlDoor">
+    <Position X="25.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAhJAAABAAAAASACAAAAAABAzQAAABAACgAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlDoor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlLaser" Collapsed="true">
+    <Position X="29.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACAAAABBAAABACAAAQAAAABAAAAAAwAAABAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlLaser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlMovingObject" Collapsed="true">
+    <Position X="32" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAABBAAABAAAAAQAAAAAAAAQAAQAAQBAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlMovingObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlNonPhysics">
+    <Position X="0.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAQAAAAAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlNonPhysics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlParent" Collapsed="true">
+    <Position X="16.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAjAAAAAAAAAAAAAAAAAAAAAQAAACBAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlParent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlPressurePad">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAhIAAgAAAAAAGgAQAAAAAAAjQAAAAAACgAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlPressurePad.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlSimplePhysics">
+    <Position X="14" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAEAAAAAAAAAAAAAAAAQAAABAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlSimplePhysics.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlSpeech">
+    <Position X="16.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAABAAAAABAAAAAAACAAAAEEAAQAAABAACAgA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlSpeech.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlTerminal">
+    <Position X="20.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAChAAAACAAAAAAgAAgAAAAEAEUAAABAAiAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlTerminal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TimeControlTimeline">
+    <Position X="27.5" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABBAIAJAIAAAQAAAAAAAAACAQAAABAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TimeControlTimeline.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Timer" Collapsed="true">
+    <Position X="17.25" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAICCAAQAiAAAAAAAgAAAAAAAAAIAAAACEEAAAAIAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\Timer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TutorialArea" Collapsed="true">
+    <Position X="19" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\TutorialArea.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Water" Collapsed="true">
+    <Position X="22.5" Y="17" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\Water.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AlertSignBehaviour" Collapsed="true">
+    <Position X="17.25" Y="11" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQYEBAAAACAAAgAAAAgAAAAAAAAAAAAgAAwAAABAAAI=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\UI\AlertSignBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuCamera" Collapsed="true">
+    <Position X="26" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAYAAAACAAAAAAAEAAAEAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\UI\MainMenuCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuCanvas" Collapsed="true">
+    <Position X="13.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQRIyAAAAmABAAAQBAAACAAAAAAIEAABIQAAAwBAAgA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\UI\MainMenuCanvas.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuIcon" Collapsed="true">
+    <Position X="15.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAECABCAAgAAAAgAAAAAQAAGABQCAAEAAEAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\UI\MainMenuIcon.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenuPostProcessing" Collapsed="true">
+    <Position X="17.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQACAAAACAQAAAAAAAAAAAAAAgAAAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\UI\MainMenuPostProcessing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayerUI" Collapsed="true">
+    <Position X="19" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MjRLSATTAzIxRlqtBEYgCAQUkgiAEAI6ZMVUCSoxFWA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\UI\PlayerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="PITNotDestroyableParticle" Collapsed="true">
+    <Position X="20.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAACAAAAAAAQAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Effect\PITNotDestroyableParticle.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PITMech" Collapsed="true">
+    <Position X="15.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAEEAAAAAAICAAEAAAAAAAAIAIAAAgAAAAg=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\PITMech.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PITMechIK" Collapsed="true">
+    <Position X="17.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAEAAAAAABAIBIAAAACAAAAAAAAAAAEgAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Enemies\PITMechIK.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PITInteractions" Collapsed="true">
+    <Position X="13.75" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAACAAAAAAAAAAAAAAAQAAAAgAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PITInteractions.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PITPistolPickup" Collapsed="true">
+    <Position X="22.5" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAABAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PITPistolPickup.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PITPlayer" Collapsed="true">
+    <Position X="24.25" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACABAAAgEAAAAhAAAAAAEAAAEACAAAQAgAAAgEAAIo=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Player\PITPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="PITNonPhysics" Collapsed="true">
+    <Position X="19" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAACAIAACAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\PITNonPhysics.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="RigidbodyState" Collapsed="true">
+    <Position X="26" Y="18.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAAACAACAIIAAAAAAAAAAAEQAAACAAAA=</HashCode>
+      <FileName>Assets\Project\Runtime\Scripts\Scene\RigidBodyState.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

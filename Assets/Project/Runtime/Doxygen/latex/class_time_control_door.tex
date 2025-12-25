@@ -1,0 +1,116 @@
+\hypertarget{class_time_control_door}{}\doxysection{Time\+Control\+Door Class Reference}
+\label{class_time_control_door}\index{TimeControlDoor@{TimeControlDoor}}
+Inheritance diagram for Time\+Control\+Door\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_time_control_door}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_door_a23941f778675a4117af190e9770c78ca}\label{class_time_control_door_a23941f778675a4117af190e9770c78ca}} 
+void {\bfseries Activate} ()
+\item 
+\mbox{\Hypertarget{class_time_control_door_a47742c3fe7d31d64163cb4d39eee2f55}\label{class_time_control_door_a47742c3fe7d31d64163cb4d39eee2f55}} 
+void {\bfseries Deactivate} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_door_ae5ce60f9b1715d3ba09c4769b4a6f7c8}\label{class_time_control_door_ae5ce60f9b1715d3ba09c4769b4a6f7c8}} 
+bool {\bfseries opening}
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_time_control_door_aeea7a27c263b8d6e7cb8ca6002b92b8a}{Start\+Init}} ()
+\item 
+override void \mbox{\hyperlink{class_time_control_door_ac0940762d68ae56dc856580759784108}{Fixed\+Update}} ()
+\item 
+override void \mbox{\hyperlink{class_time_control_door_af7623d167010e84429d667179f35f1f0}{Rewinding}} ()
+\item 
+override void \mbox{\hyperlink{class_time_control_door_aee593a6c7f3470246124078d466b1aae}{Not\+Rewinding}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a7a7a0490f9a6ec1e770e022730e4ac42}\label{class_time_control_parent_a7a7a0490f9a6ec1e770e022730e4ac42}} 
+void {\bfseries Start} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a4c11543547d7a686861f2c734b699454}\label{class_time_control_parent_a4c11543547d7a686861f2c734b699454}} 
+virtual void {\bfseries Fixed\+Update} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_afc48bb694e2ce844b22c7d853fd651e1}\label{class_time_control_parent_afc48bb694e2ce844b22c7d853fd651e1}} 
+virtual void {\bfseries Start\+Init} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a052821f404c96846e325b2d5a6b17d56}\label{class_time_control_parent_a052821f404c96846e325b2d5a6b17d56}} 
+abstract void {\bfseries Rewinding} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a13c7bb2ae605ef5c413074ca8e9efc9a}\label{class_time_control_parent_a13c7bb2ae605ef5c413074ca8e9efc9a}} 
+abstract void {\bfseries Not\+Rewinding} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a40300d0ccc58d9466c637c17e48fc94e}\label{class_time_control_parent_a40300d0ccc58d9466c637c17e48fc94e}} 
+Game\+Object {\bfseries time}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a736658ff4c137eb47fc6b5c270ff6e26}\label{class_time_control_parent_a736658ff4c137eb47fc6b5c270ff6e26}} 
+float {\bfseries max\+Recording\+Time}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a595718e6396b5a3c2c3309de6a5f7add}\label{class_time_control_parent_a595718e6396b5a3c2c3309de6a5f7add}} 
+bool {\bfseries first\+Frame\+After} = false
+\item 
+\mbox{\Hypertarget{class_time_control_parent_aa28855ce729ce3b3e8596d195271f523}\label{class_time_control_parent_aa28855ce729ce3b3e8596d195271f523}} 
+\mbox{\hyperlink{class_timer}{Timer}} {\bfseries timer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_time_control_door_ac0940762d68ae56dc856580759784108}\label{class_time_control_door_ac0940762d68ae56dc856580759784108}} 
+\index{TimeControlDoor@{TimeControlDoor}!FixedUpdate@{FixedUpdate}}
+\index{FixedUpdate@{FixedUpdate}!TimeControlDoor@{TimeControlDoor}}
+\doxysubsubsection{\texorpdfstring{FixedUpdate()}{FixedUpdate()}}
+{\footnotesize\ttfamily override void Time\+Control\+Door.\+Fixed\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+\mbox{\Hypertarget{class_time_control_door_aee593a6c7f3470246124078d466b1aae}\label{class_time_control_door_aee593a6c7f3470246124078d466b1aae}} 
+\index{TimeControlDoor@{TimeControlDoor}!NotRewinding@{NotRewinding}}
+\index{NotRewinding@{NotRewinding}!TimeControlDoor@{TimeControlDoor}}
+\doxysubsubsection{\texorpdfstring{NotRewinding()}{NotRewinding()}}
+{\footnotesize\ttfamily override void Time\+Control\+Door.\+Not\+Rewinding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+\mbox{\Hypertarget{class_time_control_door_af7623d167010e84429d667179f35f1f0}\label{class_time_control_door_af7623d167010e84429d667179f35f1f0}} 
+\index{TimeControlDoor@{TimeControlDoor}!Rewinding@{Rewinding}}
+\index{Rewinding@{Rewinding}!TimeControlDoor@{TimeControlDoor}}
+\doxysubsubsection{\texorpdfstring{Rewinding()}{Rewinding()}}
+{\footnotesize\ttfamily override void Time\+Control\+Door.\+Rewinding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+\mbox{\Hypertarget{class_time_control_door_aeea7a27c263b8d6e7cb8ca6002b92b8a}\label{class_time_control_door_aeea7a27c263b8d6e7cb8ca6002b92b8a}} 
+\index{TimeControlDoor@{TimeControlDoor}!StartInit@{StartInit}}
+\index{StartInit@{StartInit}!TimeControlDoor@{TimeControlDoor}}
+\doxysubsubsection{\texorpdfstring{StartInit()}{StartInit()}}
+{\footnotesize\ttfamily override void Time\+Control\+Door.\+Start\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Scene/Time\+Control\+Door.\+cs\end{DoxyCompactItemize}

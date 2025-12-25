@@ -1,0 +1,125 @@
+\hypertarget{class_time_control_player}{}\doxysection{Time\+Control\+Player Class Reference}
+\label{class_time_control_player}\index{TimeControlPlayer@{TimeControlPlayer}}
+Inheritance diagram for Time\+Control\+Player\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=3.000000cm]{class_time_control_player}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_player_ab52541dd6b6cabc112f795e206af38e1}\label{class_time_control_player_ab52541dd6b6cabc112f795e206af38e1}} 
+void {\bfseries Clear\+List} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_player_ac10a54c3982677abee1d1d1805cae887}\label{class_time_control_player_ac10a54c3982677abee1d1d1805cae887}} 
+Camera {\bfseries cam}
+\item 
+\mbox{\Hypertarget{class_time_control_player_a551c66aace79fde96cc53af7002659a1}\label{class_time_control_player_a551c66aace79fde96cc53af7002659a1}} 
+bool {\bfseries in\+Past}
+\item 
+\mbox{\Hypertarget{class_time_control_player_ab35de322dd950e3a06d441583ce705d9}\label{class_time_control_player_ab35de322dd950e3a06d441583ce705d9}} 
+\mbox{\hyperlink{class_player_input}{Player\+Input}} {\bfseries pi}
+\item 
+\mbox{\Hypertarget{class_time_control_player_a7a8e3fe99d01aff3dfbb35f02d648796}\label{class_time_control_player_a7a8e3fe99d01aff3dfbb35f02d648796}} 
+List$<$ \mbox{\hyperlink{struct_p_i_t_player}{PITPlayer}} $>$ {\bfseries pit\+List} = new List$<$\mbox{\hyperlink{struct_p_i_t_player}{PITPlayer}}$>$()
+\item 
+\mbox{\Hypertarget{class_time_control_player_ad9abc604e50875b397559fe455bfc197}\label{class_time_control_player_ad9abc604e50875b397559fe455bfc197}} 
+List$<$ \mbox{\hyperlink{struct_p_i_t_interactions}{PITInteractions}} $>$ {\bfseries inputs\+List} = new List$<$\mbox{\hyperlink{struct_p_i_t_interactions}{PITInteractions}}$>$()
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+override void \mbox{\hyperlink{class_time_control_player_a97b1ea494a5140b87a7a4b7f05fdbe76}{Start\+Init}} ()
+\item 
+override void \mbox{\hyperlink{class_time_control_player_ab9b1c5e26a97e7b8aeefa05c27aa3229}{Fixed\+Update}} ()
+\item 
+override void \mbox{\hyperlink{class_time_control_player_a3d96cb1490e772582c0165e93e5ffe95}{Rewinding}} ()
+\item 
+override void \mbox{\hyperlink{class_time_control_player_a0d613262d467d481e084dc34d11f7cd3}{Not\+Rewinding}} ()
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Protected Member Functions inherited from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a7a7a0490f9a6ec1e770e022730e4ac42}\label{class_time_control_parent_a7a7a0490f9a6ec1e770e022730e4ac42}} 
+void {\bfseries Start} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a4c11543547d7a686861f2c734b699454}\label{class_time_control_parent_a4c11543547d7a686861f2c734b699454}} 
+virtual void {\bfseries Fixed\+Update} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_afc48bb694e2ce844b22c7d853fd651e1}\label{class_time_control_parent_afc48bb694e2ce844b22c7d853fd651e1}} 
+virtual void {\bfseries Start\+Init} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a052821f404c96846e325b2d5a6b17d56}\label{class_time_control_parent_a052821f404c96846e325b2d5a6b17d56}} 
+abstract void {\bfseries Rewinding} ()
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a13c7bb2ae605ef5c413074ca8e9efc9a}\label{class_time_control_parent_a13c7bb2ae605ef5c413074ca8e9efc9a}} 
+abstract void {\bfseries Not\+Rewinding} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+\doxysubsubsection*{Protected Attributes inherited from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a40300d0ccc58d9466c637c17e48fc94e}\label{class_time_control_parent_a40300d0ccc58d9466c637c17e48fc94e}} 
+Game\+Object {\bfseries time}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a736658ff4c137eb47fc6b5c270ff6e26}\label{class_time_control_parent_a736658ff4c137eb47fc6b5c270ff6e26}} 
+float {\bfseries max\+Recording\+Time}
+\item 
+\mbox{\Hypertarget{class_time_control_parent_a595718e6396b5a3c2c3309de6a5f7add}\label{class_time_control_parent_a595718e6396b5a3c2c3309de6a5f7add}} 
+bool {\bfseries first\+Frame\+After} = false
+\item 
+\mbox{\Hypertarget{class_time_control_parent_aa28855ce729ce3b3e8596d195271f523}\label{class_time_control_parent_aa28855ce729ce3b3e8596d195271f523}} 
+\mbox{\hyperlink{class_timer}{Timer}} {\bfseries timer}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_time_control_player_ab9b1c5e26a97e7b8aeefa05c27aa3229}\label{class_time_control_player_ab9b1c5e26a97e7b8aeefa05c27aa3229}} 
+\index{TimeControlPlayer@{TimeControlPlayer}!FixedUpdate@{FixedUpdate}}
+\index{FixedUpdate@{FixedUpdate}!TimeControlPlayer@{TimeControlPlayer}}
+\doxysubsubsection{\texorpdfstring{FixedUpdate()}{FixedUpdate()}}
+{\footnotesize\ttfamily override void Time\+Control\+Player.\+Fixed\+Update (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+\mbox{\Hypertarget{class_time_control_player_a0d613262d467d481e084dc34d11f7cd3}\label{class_time_control_player_a0d613262d467d481e084dc34d11f7cd3}} 
+\index{TimeControlPlayer@{TimeControlPlayer}!NotRewinding@{NotRewinding}}
+\index{NotRewinding@{NotRewinding}!TimeControlPlayer@{TimeControlPlayer}}
+\doxysubsubsection{\texorpdfstring{NotRewinding()}{NotRewinding()}}
+{\footnotesize\ttfamily override void Time\+Control\+Player.\+Not\+Rewinding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+\mbox{\Hypertarget{class_time_control_player_a3d96cb1490e772582c0165e93e5ffe95}\label{class_time_control_player_a3d96cb1490e772582c0165e93e5ffe95}} 
+\index{TimeControlPlayer@{TimeControlPlayer}!Rewinding@{Rewinding}}
+\index{Rewinding@{Rewinding}!TimeControlPlayer@{TimeControlPlayer}}
+\doxysubsubsection{\texorpdfstring{Rewinding()}{Rewinding()}}
+{\footnotesize\ttfamily override void Time\+Control\+Player.\+Rewinding (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Implements \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+\mbox{\Hypertarget{class_time_control_player_a97b1ea494a5140b87a7a4b7f05fdbe76}\label{class_time_control_player_a97b1ea494a5140b87a7a4b7f05fdbe76}} 
+\index{TimeControlPlayer@{TimeControlPlayer}!StartInit@{StartInit}}
+\index{StartInit@{StartInit}!TimeControlPlayer@{TimeControlPlayer}}
+\doxysubsubsection{\texorpdfstring{StartInit()}{StartInit()}}
+{\footnotesize\ttfamily override void Time\+Control\+Player.\+Start\+Init (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented from \mbox{\hyperlink{class_time_control_parent}{Time\+Control\+Parent}}.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Player/Time\+Control\+Player.\+cs\end{DoxyCompactItemize}

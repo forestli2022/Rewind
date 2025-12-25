@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: bbfd548324c73494aa8944132d266b69
+ModelImporter:
+  serializedVersion: 21202
+  internalIDToNameTable:
+  - first:
+      74: -623603649343465320
+    second: Scene
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: enemy1(Clone)
+      parentName: 
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 0.18651734, y: 0.18651734, z: 0.18651734}
+    - name: turret
+      parentName: enemy1(Clone)
+      position: {x: -0.014873911, y: -5.7533298, z: 0.076985694}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 5.3614335, y: 5.3614335, z: 5.3614335}
+    - name: Hip
+      parentName: enemy1(Clone)
+      position: {x: 0, y: 0.82309747, z: 2.9412172}
+      rotation: {x: -0.00028692046, y: -0.000024755655, z: 0.0000000071029014, w: 1}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Turret
+      parentName: Hip
+      position: {x: -0, y: 1.0777779, z: 0}
+      rotation: {x: 0.53385717, y: 0.000020932755, z: -0.000013215983, w: 0.8455747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Turret_end
+      parentName: Turret
+      position: {x: -0, y: 0.7750157, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg01.L
+      parentName: Hip
+      position: {x: 1.0196889e-22, y: 6.3108872e-30, z: 5.820766e-11}
+      rotation: {x: 0.7727323, y: -0.15228985, z: -0.58189505, w: -0.20270848}
+      scale: {x: 0.9999997, y: 0.99999994, z: 0.99999994}
+    - name: Leg02.L
+      parentName: Leg01.L
+      position: {x: 0.000000002289055, y: 0.9444481, z: -0.000000029788318}
+      rotation: {x: 0.43617666, y: 0.25409266, z: -0.43452382, w: 0.7459061}
+      scale: {x: 0.99999994, y: 1, z: 0.99999994}
+    - name: Leg03.L
+      parentName: Leg02.L
+      position: {x: -0.000000029608998, y: 1.1267294, z: 0.000000025162391}
+      rotation: {x: 0.10364366, y: -0.7683114, z: 0.354771, w: 0.52258325}
+      scale: {x: 0.9999998, y: 0.9999999, z: 0.99999994}
+    - name: Leg04.L
+      parentName: Leg03.L
+      position: {x: 0.00000020542518, y: 1.3272003, z: 0.00000012754339}
+      rotation: {x: 0.00000017081395, y: -0.7012425, z: 0.7129228, w: -0.000000018762277}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999998}
+    - name: Leg05.L
+      parentName: Leg04.L
+      position: {x: -0.00000011970772, y: 1.6815214, z: -0.00000026749836}
+      rotation: {x: 0.24170476, y: 0.3205988, z: -0.79504985, w: 0.4546327}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: Leg06.L
+      parentName: Leg05.L
+      position: {x: -0.000000113488476, y: 2.3690999, z: -0.00000011122033}
+      rotation: {x: 0.44149196, y: 0.0000002392486, z: 0.000000035015404, w: 0.89726526}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg07.L
+      parentName: Leg06.L
+      position: {x: 0.00000012483613, y: 1.0348284, z: -0.00000040388437}
+      rotation: {x: 0.35996905, y: -0.000000105964084, z: 0.000000083648025, w: 0.93296427}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg07.L_end
+      parentName: Leg07.L
+      position: {x: -0, y: 0.592314, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg01.R
+      parentName: Hip
+      position: {x: 1.0196889e-22, y: 6.3108872e-30, z: 5.820766e-11}
+      rotation: {x: 0.7727611, y: 0.15227987, z: 0.5818568, w: -0.20271601}
+      scale: {x: 1.0000005, y: 1.0000001, z: 1}
+    - name: Leg02.R
+      parentName: Leg01.R
+      position: {x: -0.000000021492529, y: 0.9444481, z: 0.000000011189881}
+      rotation: {x: 0.43153024, y: 0.20563282, z: 0.6953999, w: 0.5365778}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: Leg03.R
+      parentName: Leg02.R
+      position: {x: -0.0000000196993, y: 1.1267295, z: 0.000000039471686}
+      rotation: {x: -0.31888258, y: 0.31888258, z: -0.6311215, w: 0.6311208}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000004}
+    - name: Leg04.R
+      parentName: Leg03.R
+      position: {x: 0.00000017482273, y: 1.3271996, z: 0.00000015312114}
+      rotation: {x: 0.29783273, y: -0.82251847, z: 0.37825263, w: 0.3027938}
+      scale: {x: 1, y: 0.999999, z: 0.9999998}
+    - name: Leg05.R
+      parentName: Leg04.R
+      position: {x: 0.00000025034214, y: 1.6815195, z: -0.0000002727303}
+      rotation: {x: -0.110707186, y: 0.5030634, z: -0.8337902, w: -0.19865796}
+      scale: {x: 1, y: 1.0000011, z: 1}
+    - name: Leg06.R
+      parentName: Leg05.R
+      position: {x: 0.00000013071931, y: 2.3690982, z: 0.0000000482994}
+      rotation: {x: 0.44149196, y: -0.00000023244057, z: -0.00000005921926, w: 0.89726526}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: Leg07.R
+      parentName: Leg06.R
+      position: {x: 0.000000031012533, y: 1.0348272, z: 0.00000042994023}
+      rotation: {x: 0.3599692, y: 0.000000111674346, z: -0.000000098448155, w: 0.9329642}
+      scale: {x: 1, y: 0.99999994, z: 0.9999999}
+    - name: Leg07.R_end
+      parentName: Leg07.R
+      position: {x: -0, y: 0.592314, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_IK.L
+      parentName: enemy1(Clone)
+      position: {x: -1.5718119, y: -5.17637, z: -0.1837844}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_IK.L_end
+      parentName: Leg_IK.L
+      position: {x: -0, y: 1.2818373, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_PT.L
+      parentName: enemy1(Clone)
+      position: {x: -1.5718119, y: -1.8892467, z: 1.8278228}
+      rotation: {x: 0.00000009415696, y: 0.7071069, z: 0.7071067, w: 0.00000009415697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_PT.L_end
+      parentName: Leg_PT.L
+      position: {x: -0, y: 1.2818373, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_IK.R
+      parentName: enemy1(Clone)
+      position: {x: 1.5718119, y: -5.17637, z: -0.1837844}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_IK.R_end
+      parentName: Leg_IK.R
+      position: {x: -0, y: 1.2818373, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_PT.R
+      parentName: enemy1(Clone)
+      position: {x: 1.5718119, y: -1.8892467, z: 1.8278228}
+      rotation: {x: -0.00000009415696, y: 0.7071069, z: 0.7071067, w: -0.00000009415697}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Leg_PT.R_end
+      parentName: Leg_PT.R
+      position: {x: -0, y: 1.2818373, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
