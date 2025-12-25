@@ -35,10 +35,3 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
-
-# Large source assets – keep out of Git
-Assets/Project/Runtime/Models/Mech/enemy1.blend
-Assets/Project/Runtime/Models/Mech/enemy1.blend1
-Downloads/
-Downloads/Sounds/
-*.wav
